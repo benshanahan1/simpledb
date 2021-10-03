@@ -1,0 +1,7 @@
+* merge + compaction
+* create new segment file
+* store index with segment file
+  * separate file? segment.db, segment.index? 
+  * only save to disk when a segment file is saved?
+  * single index file? when would this get updated?
+  * single segment file? only update 
